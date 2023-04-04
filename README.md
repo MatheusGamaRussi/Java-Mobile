@@ -12,7 +12,7 @@ Atividades de Java / Mobile, para as aulas de PAM
 
 4. **long** - O maior tipo de dados que guarda valores inteiros, representado pelo valor de 64 bits, com valores entre -2⁶³ até 2⁶³.
 
-        *OBS - Todos os tipos de dados acima herdam de um tipo "Integer"* 
+        OBS - Todos os tipos de dados acima herdam de um tipo "Integer"
 
 5. **float** - É um tipo de dado que é representado por valores aproximados que são de "precisão singular",  ou seja, guarda valores de 32 bits. Sempre que for necessário a utilização de valores *byte* ou *short*, é recomendado usar *float*.
 
@@ -22,13 +22,13 @@ Atividades de Java / Mobile, para as aulas de PAM
 
 8. **char** - O último tipo de dado primitivo que é um caractere de 16 bits **Unicode** que tem valor mínimo de "0" e valor máximo de "65,535".
 
-        *OBS2 - "Unicode" é o padrão de caracteres onde se é possível guardar caracteres não-latinos.*
+        OBS2 - "Unicode" é o padrão de caracteres onde se é possível guardar caracteres não-latinos.
 
 ## *Estruturas condicionais*
 
 1. **If/else** - Um tipo de estrutura aonde uma expressão booleana é analisada, fazendo com que caso dita condição seja "true", verdadeira, ela seja executada, no caso do "if". Já no caso do "else", a condição só será executada se ela possuir valor "false", falso.
     
-        Sintáxe:
+        Sintaxe:
 
             if (condição = true) 
             {
@@ -46,7 +46,7 @@ Atividades de Java / Mobile, para as aulas de PAM
 2. **Switch/case** - Um tipo de estrutura que é utilizada quando é necessário se usar varios "if/else" em um comando e o mesmo irá comparar os valores que estejam dentro do "switch/case".
 É importante realçar que, caso alguma das condições sejam verdadeiras, será executada a mesmo, do contrário, a última condição será executada.
 
-        Sintáxe:
+        Sintaxe:
 
             switch (variável) 
             {
@@ -65,13 +65,33 @@ Atividades de Java / Mobile, para as aulas de PAM
             }
 
 
-## *Estruturas de Repetição (Looping)*
+## *Estruturas/Laços de Repetição (Looping)*
 
 1. **While** - É uma das estruturas de repetição, onde caso uma condição imposta pelo programador seja "verdadeira", todas as instruções que estiverem dentro dela serão executadas sem parar, até que a condição seja "falsa".
 
-        Sintáxe:
+        Sintaxe:
 
             while (condição) {
                 // Trecho de código a ser repetido
             }
-}
+
+2. **Do While** - Semelhatne ao "While", porém com uma diferença. Enquanto no "While" as instruções serão executadas se e somente se a condição for verdadeira, já no "Do While", mesmo que tal condição seja falsa, ele ira executar a instrução ao menos uma vez.
+
+        Sintaxe
+
+            do {
+                // Trecho de código a ser repetido
+            } while ()
+
+3. **For** - O "For" por sua vez tem uma sintaxe mais diferente do que os anteriores. Temos três elementos que constituem o "For", *Variável de controle, condicional e incremento/decremento.
+
+    - **Variável de Controle** - Variável local, geralmente chamada de "i".
+    - **Condicional** - Uma condição que, enquanto verdadeira, o looping ocorre, sendo que essa condicional é relacionada à variável de controle.
+    - **Incremento/Decremento** - Uma resposta à condicional, caso for verdadeira, é adicionado (i++) ou subtraido (i--) da variável de controle
+
+
+             Sintaxe:
+
+                for (int i = 0 //Variavel de controle; i <= 10 //condicional; i++ //Incremento/Decremento) {
+                    // Trecho de código a ser repetido
+                }
