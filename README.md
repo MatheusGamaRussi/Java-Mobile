@@ -100,11 +100,19 @@ Atividades de Java / Mobile, para as aulas de PAM
 
 ## *Layout* 
 
-- O layout, ou os elementos do layout, são elementos de uma interface em um aplicativo que vão mostrar e definir como é a estrutura da mesma, além de que todos os elementos de layout estarem "interligados" pelos comandos *"View"* e *"ViewGroup"*.
-- Cada elemento possui um pu mais atributos que vão fazem com que eles se diferenciem e os mesmos podem possuir um "ID" para que eles possam ser identificados de maneira exclusiva.
+- O layout, ou os elementos do layout, são elementos de uma interface em um aplicativo que vão mostrar e definir como é a estrutura da mesma, além de que a maioria dos os elementos de layout estarem "interligados" pelos comandos *"View"* e *"ViewGroup"*.
+- Cada elemento possui um ou mais atributos que vão fazer com que eles se diferenciem e os mesmos podem possuir um "ID" para que eles possam ser identificados de maneira exclusiva.
 
 ### Elementos do *layout*
 
-1. **ViewGroup/View** - O View é um elemento que pertence a um IU(Interface de Usuário) individual que vai fazer com que o usuário possa ver e interagir. Já o ViewGroup é uma junção de diversos Views, melhor dizendo, um local de amrmazenamento para outros demais elementos Views que serão utilizados.
+- Dentre os muitos elementos, separamos alguns príncipais, sendo eles:
 
-2. **Pickers** - 
+1. **ViewGroup/View** - Elementos considerados como elementos base para criação dos outros elementos e um tipo de "View Básico", ou seja, são componentes básicos. - View é um elemento que pertence a uma Interface de Usuário individual que vai fazer com que o usuário possa ver e interagir. Já o ViewGroup é uma junção de diversos Views, melhor dizendo, um local de amrmazenamento para outros demais elementos Views que serão utilizados.
+
+2. **Pickers** - Elementos de controle de data e hora de maneira separada(hora/minuto/segundo ou dia/mês/ano) que utiliza de caixas de diálogo e que são componentes únicos que fazem com que o usuário possa selecionar os dados a partir de uma outra fonte.
+
+3. **ListView** - Elementos que armazenam uma quantidade grande quantidade de informações e que tem por função de atualizar essas informações, recebendo e enviando os dados presentes em formato, é claro, de listas.
+
+4. **ImageView** - Elementos que irão manipular recursos relacionados à imagens(tratamento, apresentação/exibição, e que irão alterar componentes na imagem, como mudar a tonalidade ou mudar as dimensões da mesma.
+
+5. **Menu** - Elementos que irão compôr a formação de menus, ou seja, listas de ações que vão  mostrar ao usuário as possíveis ações e/ou atividades que ele irá poder fazer, em diversos aplicativos.
