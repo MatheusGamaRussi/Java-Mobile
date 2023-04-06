@@ -95,3 +95,16 @@ Atividades de Java / Mobile, para as aulas de PAM
                 for (int i = 0 //Variavel de controle; i <= 10 //condicional; i++ //Incremento/Decremento) {
                     // Trecho de código a ser repetido
                 }
+
+## Elementos visuais do *Android Studio*
+
+## *Layout* 
+
+- O layout, ou os elementos do layout, são elementos de uma interface em um aplicativo que vão mostrar e definir como é a estrutura da mesma, além de que todos os elementos de layout estarem "interligados" pelos comandos *"View"* e *"ViewGroup"*.
+- Cada elemento possui um pu mais atributos que vão fazem com que eles se diferenciem e os mesmos podem possuir um "ID" para que eles possam ser identificados de maneira exclusiva.
+
+### Elementos do *layout*
+
+1. **ViewGroup/View** - O View é um elemento que pertence a um IU(Interface de Usuário) individual que vai fazer com que o usuário possa ver e interagir. Já o ViewGroup é uma junção de diversos Views, melhor dizendo, um local de amrmazenamento para outros demais elementos Views que serão utilizados.
+
+2. **Pickers** - 
